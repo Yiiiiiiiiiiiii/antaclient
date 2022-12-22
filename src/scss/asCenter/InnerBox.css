@@ -1,0 +1,21 @@
+.image-list{
+    width: 190px;
+    height: 30px;
+    /* background-color: yellow; */
+    /* margin: 0 auto; */
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content:baseline
+}
+.image-list>li{
+    display: inline-block;
+    width: 30px;
+    border: 0.5px solid #E3E0E1;
+    margin:0 4px;
+    /* background-color: aquamarine; */
+}
+.image-list>li>img{
+    /* width: 28px; */
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,86 @@
+.footer {
+    background-color: #292929;
+    height: 215px;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 50px;
+    width: 100%;
+    overflow: hidden;
+
+    .w-1280 {
+        width: 1280px;
+        margin: 0 auto;
+        overflow: hidden;
+
+        .ft-slogan {
+            padding-top: 35px;
+            width: 250px;
+            text-align: center;
+            padding-top: 20px;
+            float: left;
+        }
+
+
+        .ft-main {
+            min-width: 900px;
+            max-width: 900px;
+            float: right;
+
+            .first {
+                display: inline-block;
+                padding-left: 90px;
+                width: 359px;
+                height: 100px;
+                min-height: 100px;
+
+                h4 {
+                    font-size: 16px;
+                    height: 50px;
+                    line-height: 50px;
+                    margin-top: 0;
+                }
+            }
+
+            .custom-service {
+                display: inline-block;
+                border-left: 1px solid #fff;
+                padding-left: 90px;
+                width: 360px;
+                height: 100px;
+                min-height: 100px;
+
+                .weixin-code {
+                    display: block;
+                    width: 90px;
+                    height: 90px;
+                    margin-top: 5px;
+                    background: url("@/assets/Footer/p4.jpg") no-repeat;
+                    background-size: 100% auto;
+                    background-position: center center;
+                }
+            }
+
+            .fl {
+                float: left;
+            }
+
+
+            .ft-company {
+                margin-top: 40px;
+
+                height: 25px;
+                line-height: 25px;
+                padding-left: 32px;
+                font-size: 14px;
+
+                a,
+                span {
+                    margin-right: 10px;
+                   
+                        color: #fff;
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    white-space: nowrap;
+    // white-space:normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
